@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #f9f0df;
+    
+}
+
+img{
+    max-width: 20em;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+h3{
+    font-size: 0.80rem;
+    /* font-weight: normal; */
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.day,.hour,.minute,.second{
+    font-size: 1.5rem;
+}
